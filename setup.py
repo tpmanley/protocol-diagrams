@@ -20,4 +20,8 @@ setup(
     package_dir={'': PACKAGE_DIR},
     packages=find_packages(PACKAGE_DIR),
     #py_modules=['ordereddict'],
+	install_requires=[
+		'pyparsing',
+		'flask',
+		],
 )
